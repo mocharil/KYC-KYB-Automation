@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+opencv-python
+numpy
+requests
+Pillow
+insightface
+ultralytics
+pydantic
+PyMuPDF
+langchain_community
+pdf2image
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+vertexai
+pypdf
