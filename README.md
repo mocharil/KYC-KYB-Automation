@@ -1,4 +1,4 @@
-```markdown
+![image](https://github.com/mocharil/kyc-kyb-process/assets/46191697/aad7b9bb-7c7a-447f-98c9-a0ce2686a891)![image](https://github.com/mocharil/kyc-kyb-process/assets/46191697/39a8d748-6086-4a55-9967-3973451c2b64)```markdown
 # KYC and KYB Processing API
 
 This repository contains a FastAPI-based application for performing KYC (Know Your Customer) and KYB (Know Your Business) processes using provided URLs for ID cards, selfies, and various business documents. The API leverages OCR to evaluate the quality of ID card images and performs face comparison to verify identity. For KYB processing, it analyzes documents to determine their types and validate their contents.
@@ -97,8 +97,10 @@ The response is a JSON object containing the results of the KYC and KYB processe
 3. Receive the KYC and KYB processing results in the response.
 
 ## Flowchart
+![Flowchart](images/flowchart.png)
 
 For a detailed flowchart of the process, visit the following link:
+
 [Flowchart](https://drive.google.com/file/d/1xRekj-RxI770zezcPmMBZzK0vOjYHHDR/view?usp=sharing)
 
 ## License
