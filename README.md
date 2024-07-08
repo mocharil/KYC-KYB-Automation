@@ -96,7 +96,7 @@ The response is a JSON object containing the results of the KYC and KYB processe
 3. Receive the KYC and KYB processing results in the response.
 
 ## Flowchart
-![Flowchart](images/flowchart.png)
+![Flowchart](images/flowchart_api.png)
 
 For a detailed flowchart of the process, visit the following link:
 
