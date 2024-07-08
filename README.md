@@ -1,4 +1,3 @@
-```markdown
 # KYC and KYB Processing API
 
 This repository contains a FastAPI-based application for performing KYC (Know Your Customer) and KYB (Know Your Business) processes using provided URLs for ID cards, selfies, and various business documents. The API leverages OCR to evaluate the quality of ID card images and performs face comparison to verify identity. For KYB processing, it analyzes documents to determine their types and validate their contents.
@@ -106,4 +105,4 @@ For a detailed flowchart of the process, visit the following link:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
+
