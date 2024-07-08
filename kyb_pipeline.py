@@ -12,13 +12,16 @@ from vertexai.generative_models import (
     HarmBlockThreshold,
     Image
 )
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
 # Vertex AI configuration
-project_id = 'paper-ds-production'
-credentials_file_path = '/home/yogi/Data Squad/Aril/APE/skilled-compass.json'
+project_id = os.getenv('PROJECT_ID')
+credentials_file_path = os.getenv('CREDENTIALS_FILE_PATH')
 credentials = service_account.Credentials.from_service_account_file(credentials_file_path)
 vertexai.init(project=project_id, credentials=credentials)
-model = "gemini-1.5-flash-preview-0514"
+model = os.getenv("GEMINI_MODEL")
 multimodal_model = GenerativeModel(model)
 
 safety_config = {
